@@ -1,0 +1,591 @@
+#intro
+{
+    height: 600px;
+    /* background-color: #e385ff; */
+    /* background-color: rgb(234, 234, 112); */
+    background-color: rgb(176, 94, 94);
+}
+
+body{
+    /* background-color: #F7C8E0; */
+    /* background-color: rgb(103, 56, 56); */
+    background-color: rgb(234, 234, 112);
+}
+
+#heading{
+    /* font-family: 'Audiowide', cursive; */
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+    font-size: 27px;
+    /* font-family: 'Luckiest Guy', cursive; */
+}
+
+.carousel-btn-edit
+{
+    color: #393053;
+}
+.carousel-img
+{
+    
+    width: 40%;
+    padding: 10%;
+    position: absolute;
+    left: 50%;
+    /* margin: 10% auto; */
+    margin-bottom: 15%;
+}
+
+.carousel-elements
+{
+    height: 400px;
+    align-items: center;
+    background-color: #d975de;
+}
+
+.car1-btn
+{
+    background-color: #7B2869;
+}
+
+.carousel-text
+{
+    margin: 20% 20%;
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-family: 'Audiowide', cursive;
+    color: #08070a;
+    /* font-weight: bolder; */
+    font-size: 40px;
+}
+
+.check-input
+{
+    border-style: groove;
+    border: #3E54AC;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.footer-link
+{
+    color: aliceblue;
+}
+.form-control
+{
+    margin: auto 20px  auto;
+}
+
+.form-h1
+{
+    text-align: center;
+    margin: 2% auto 5%;
+    /* font-family: 'Barrio', cursive; */
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Vast Shadow', cursive;
+
+
+    font-size: 60px;
+
+
+}
+
+.form-h2
+{
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+    font-size: 50px;
+
+
+}
+
+.form-labels
+{
+    padding: 2% 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    
+
+}
+
+.place{
+    margin-left: 1%;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form-select{
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 23%;
+}
+
+.form-check{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 1%;
+}
+
+.input-group{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.check{
+    margin: 1%;
+}
+
+.form-container
+{
+    background-color: #EDF1D6;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.hr-part
+{
+    border: dotted;
+    width: 20%;
+    border-bottom: none;
+    align-content: center;
+    margin: 100px auto;
+    padding-right: 5%;
+    color: #7B2869;
+}
+.intro-img
+{
+    margin-top: 18%;
+    width: 90%;
+}
+.intro-text
+{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.last
+{
+    text-align: center;
+    padding: auto 5%;
+    line-height: 2rem;
+    word-spacing: 20px;
+
+}
+.navbar-brand
+{   
+    left : 20px;
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.navbar-nav
+{
+    position: absolute;
+    right:10px;
+}
+
+.ratings
+{
+    height: 400px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    color: #D61C4E;
+}
+
+.rate-heading
+{
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+.rate-icon
+{
+    size-adjust: 50px;
+    margin-bottom: 5%;
+    color: white
+}
+
+.rate-icon:hover
+{
+    color: #dd4f4f;
+    /* color: #205b80; */
+}
+.rate-text
+{
+    text-decoration: none;
+
+    /* font-family: 'Shantell Sans', cursive; */
+    font-family: 'Exo', sans-serif;
+}
+
+.row1
+{
+    padding: 10% auto 10% auto;
+    margin-bottom: 5%;
+}
+
+.row2
+{
+    padding: 10% auto 10% auto;
+}
+
+.nav-link{
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+
+    
+}
+
+#start{
+    font-family: 'Bungee', cursive;
+}
+
+.search-button
+{
+    margin-right: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.share-exp
+{
+    border-color: #3E54AC;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+.togglerr
+{
+    position: absolute;
+    right: 10%;
+}
+share-exp:hover
+{
+    color: blueviolet;
+}
+
+.rate-heading{
+    font-family: 'Bungee', cursive;
+}
+
+#copyright
+{
+    color:#F7C8E0;
+    margin-bottom: 0%;
+}
+#footer
+{
+    background-color: #4D455D;
+    margin-bottom: 0%;
+
+}
+
+#rate
+{
+    background-color: #c4a9e0;
+}
+
+
+
+/*  TIC TAC TOE  */
+
+.tic-body
+{
+    background-color: #e57a67;
+}
+
+.tic-h1
+{
+    text-align: center;
+    font-size: 400%;
+    margin-top: 2%;
+    font-family: 'Bungee Shade', cursive;
+
+    
+}
+
+.tic-img
+{
+    margin: 15% 25%;
+    align-items: center;
+    width: 60%;
+    height: 63%;
+}
+
+.tic-h2
+{
+    margin: 5% 10%;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.tic-p
+{
+    text-align: center;
+    margin:2% 15%;
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+    font-size: 35px;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.tic-btn
+{
+    width: 20%;
+    margin: 8% 40%;
+    background-color:rgb(57, 62, 66);
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+#ticd
+{
+    background-color: #f7f7b5;
+    margin: 2.5% 5%;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 90%;
+    
+}
+
+
+
+/*   DICE GAME    */
+
+
+.dice-body
+{
+    background-color: #E5EBB2;
+}
+
+.dice-h1
+{
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.dice-img
+{
+    margin: 30% 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.dice-h2
+{
+    margin: 10% 10%;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+.dice-p
+{
+    text-align: center;
+    margin:2% 15%;
+    padding: 0.5%;
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+    font-size: 35px;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.dice-btn
+{
+    width: 20%;
+    margin: 5% 40%;
+    background-color:rgb(57, 62, 66);
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.dice-btn:hover
+{
+    background-color: #d89c2c;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+
+#diced
+{
+    background-color: #BCE29E;
+    margin-top: 2%;
+    margin-left: 7%;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 85%;
+}
+
+/*    Shingo Shoot       */
+
+.shoot-body
+{
+    background-color: #293462;
+}
+
+.shoot-h1
+{
+    text-align: center;
+    font-size: 500%;
+    color: #E5D1FA;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.shoot-img
+{
+    /* margin: 30% 30%; */
+    margin-top: 20%;
+    margin-left: 30%;
+    align-items: center;
+    width: 60%;
+    
+}
+
+.shoot-h2
+{
+    color: #ebe9ec;
+    margin: 8% 10%;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+
+.shoot-p
+{
+    
+    text-align: center;
+    margin:2% 15%;
+    padding: 0.5%;
+    font-family: 'Zeyada', cursive;
+    font-size: 35px;
+    background-color: rgb(188, 190, 186);
+    border: 2px solid black;
+}
+
+.shoot-btn
+{
+
+    background-color:aliceblue;
+    align-items: center;
+    width: 20%;
+    margin: 5% 40%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.shoot-btn:hover
+{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+
+#shootd
+{
+    background-color: #b50c0c;
+    margin-top: 2%;
+    margin-left: 7%;
+    border: 3px solid rgb(205, 192, 192);
+    border-radius: 40px;
+    width: 85%;
+}
+
+/*         Snake Game         */
+
+
+.snake-body
+{
+    background-color: rgb(52, 132, 98);
+}
+
+.snake-h1
+{
+    text-align: center;
+    color: #eeedf4;
+    font-size: 500%;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.snake-img
+{
+   
+    margin-top: 24%;
+    margin-left: 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.snake-h2
+{
+    font-size: 300%;
+    color: black;
+    text-align: center;
+    margin: 8% 10%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+.snake-p
+{
+    
+    color: white;
+    
+    text-align: center;
+    margin:2% 15%;
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+    font-size: 35px;
+    background-color: rgb(85, 62, 54);
+    border: 2px solid black;
+}
+
+.snake-btn
+{
+    background-color:aliceblue;
+    align-items: center;
+    width: 20%;
+    margin: 5% 40%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.snake-btn:hover
+{
+    background-color: blue;
+    color: white;
+
+    border: 2px solid black;
+}
+
+
+#snaked
+{
+    background-color: #FDD36A;
+    /* margin: 5% 5%; */
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    width: 85%;
+}
